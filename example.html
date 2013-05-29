@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Chat room</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <link type="text/css" href="example.css" rel="stylesheet" />
+  	<script src="jquery.js"></script>
+        <script src="example.js" type="text/javascript"></script>
+
+    </head>
+
+    <body id="body" onload="setupChatroom()" onunload="doQuitChat()">
+
+        <div id="chat">
+	<ul>
+
+	</ul>
+
+        </div>
+
+
+          <textarea id = "myTextArea" onfocus="clearContents(this);" rows = "6"cols = "50">Your text here...</textarea>
+          <button type="button" onclick="send()">Send</button>
+
+    </body>
+
+</html>
