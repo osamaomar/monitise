@@ -1,0 +1,10 @@
+#chat{
+border:1px solid;
+height:300px;
+width:500px;
+}
+
+ul
+{
+    list-style-type: none;
+}
